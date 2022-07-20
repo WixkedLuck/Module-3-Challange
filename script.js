@@ -68,6 +68,9 @@ if(number){
   emptyArray=emptyArray.concat(NumberArray)
   pickone=true;
 }
+if(pickone==false){
+  alert("Please select at least one option")
+}
 
 }
 
