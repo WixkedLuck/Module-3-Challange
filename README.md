@@ -18,7 +18,7 @@ a password generator based off an employees prefrences.
 In order to install my project you will need the following
 
 - Git
-- IDE with HTML/CSS capabilities 
+- IDE with HTML/CSS/JS capabilities 
 
 To start: 
 Clone the repository on GitHub then open Git on your local machine. First find a location of your choice on your computer that you want the folder to be in.
