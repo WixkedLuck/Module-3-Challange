@@ -3,7 +3,7 @@
 For this weeks challenge I was tasked with creating an application that a employee can use to generate random passwords, based off of a criteria set by the employee.
 
 - The motivation behind this project was to become more familiar with JavaScript and learn how to create functions, use various methods of validation and learn how to create
-a password generator based off an employees prefrences. 
+a password generator based off an employees prefrence. 
 
 - I built this project to further my understanding of JavaScript and practice what I have learned in class. Creating this password generator I was able to dive deeper into the different kind of loops I can use to complete a task and try out various .  
 
