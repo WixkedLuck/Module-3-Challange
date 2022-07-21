@@ -43,31 +43,35 @@ var length= choseLength()
 //Ask user questions
 while(pickone==false){
 var Upper=window.confirm("Would you like Uppercase letters?")
+
 if(Upper){
  alert("Great! Upper case letter will be used")
  emptyArray=emptyArray.concat(UpperArray)
  pickone=true;
 
 }
+//Asks next question
 var Lower=window.confirm("Would you like Lowercase letters?")
 if(Lower){
   alert("Great! Lower case letter will be used")
   emptyArray=emptyArray.concat(LowerArray)
   pickone=true;
 }
-
+//Asks next question
 var Special=window.confirm("Would you like special characters?")
 if(Special){
   alert("Great! Speical characters will be used")
   emptyArray=emptyArray.concat(SpecialArray)
   pickone=true;
 }
+//Asks next question
 var number=window.confirm("Would you like numbers?")
 if(number){
   alert("Great! numbers will be used")
   emptyArray=emptyArray.concat(NumberArray)
   pickone=true;
 }
+//if the while loop is still true this will be a true if statement
 if(pickone==false){
   alert("Please select at least one option")
 }
@@ -103,4 +107,4 @@ Password=Password+ArrayUp
 
 
 //button event listener 
-generateBtn.addEventListener("click", writePassword());
+generateBtn.addEventListener("click", writePassword);
